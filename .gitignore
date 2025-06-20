@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.VC.db
+*.opendb
+*.log
+*.tlog
+*.idb
+*.pdb
+*.ipch
+*.obj
+*.ilk
+*.exe
+*.cache
+*.db
+*.enc
+
+# Build directories
+x64/
+Debug/
+Release/
+*.vcxproj.user
+
+# Ignore system files
+.DS_Store
+Thumbs.db
