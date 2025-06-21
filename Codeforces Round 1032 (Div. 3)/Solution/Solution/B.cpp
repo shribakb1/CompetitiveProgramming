@@ -1,6 +1,17 @@
 #include <iostream>
-
+#include <string>
 int main()
 {
-	std::cout << "Hello world";
+	int t;
+	std::cin >> t;
+	while (t--)
+	{
+		int n; 
+		std::cin >> n;
+		
+		std::string str;
+		std::cin >> str;
+
+	}
+	
 }
