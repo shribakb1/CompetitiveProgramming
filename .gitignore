@@ -17,8 +17,9 @@
 *.enc
 
 
-.vscode/tasks.json
-.vscode/settings.json
+**/.vscode/tasks.json
+**/.vscode/settings.json
+
 
 
 # Build directories
