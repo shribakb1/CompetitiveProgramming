@@ -16,6 +16,11 @@
 *.db
 *.enc
 
+
+.vscode/tasks.json
+.vscode/settings.json
+
+
 # Build directories
 x64/
 Debug/
