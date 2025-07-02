@@ -18,7 +18,7 @@ int main() {
     for (int i = 0; i < n; i++)
     {
         cin >> home[i];
-        cin >> guest[i];
+        cin >> guest[i]; 
     }
 
     int count = 0;

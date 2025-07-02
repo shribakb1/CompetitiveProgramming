@@ -14,7 +14,11 @@ int main() {
     string str;
     getline(cin, str);    
 
-    
+    for (int i = 0; i < str.size(); i++)
+    {
+        if (str[i] >= 97 && str[i] <= 122)
+        ch.insert(str[i]);
+    }
     cout << ch.size();
     return 0;
 }

@@ -25,11 +25,11 @@ int main() {
 
         if (i == n)
         {
-            cout << "it"
+            cout << "it";
         }
         else
         {
-            cout << "that "
+            cout << "that ";
         }
     }
     return 0;
