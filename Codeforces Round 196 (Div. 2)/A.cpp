@@ -30,6 +30,7 @@ int main() {
         }
     }
 
+    
     cout << min_diff;
     return 0;
 }
