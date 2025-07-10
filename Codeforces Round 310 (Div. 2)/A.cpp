@@ -28,7 +28,7 @@ int main() {
         }
     }
 
-    cout << (count < 0) ? -count : count;
+    cout << ((count < 0) ? -count : count);
 
     return 0;
 }
