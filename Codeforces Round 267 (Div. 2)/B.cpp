@@ -4,7 +4,6 @@
 **/
 
 #include <bits/stdc++.h>
-
 using namespace std;
 
 int main() {
@@ -16,32 +15,18 @@ int main() {
 
     vector<int> x(m);
     for (int i = 0; i < m; i++)
-    {
         cin >> x[i];
-    }
 
     int fedir;
     cin >> fedir;
 
-    int count_friend = m;
-    for (int i = 0; i < m; i++)
-    {
-        int copy_fedir = fedir;
-        int count_differ = 0;
-        for (int bit = 0; bit < n; bit++)
-        {
-            if ((x[i] % 2) != (copy_fedir % 2))
-                count_differ++;
-
-            x[i] /= 2;
-            copy_fedir /= 2;
-        }
-        if (count_differ > k)
-            count_friend--;
+    int count_friend = 0;
+    for (int i = 0; i < m; i++) {
+        int hamming_distance = __builtin_popcount(x[i] ^ fedir);
+        if (hamming_distance <= k)
+            count_friend++;
     }
 
-
-    cout << count_friend;
-
+    cout << count_friend << "\n";
     return 0;
 }
